@@ -1,0 +1,19 @@
+{
+  "name": "tpjavascript",
+  "version": "1.0.0",
+  "description": "TrainingPeaks Code Test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefan7/tpcodetest.git"
+  },
+  "author": "Joe Fan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joefan7/tpcodetest/issues"
+  },
+  "homepage": "https://github.com/joefan7/tpcodetest#readme"
+}
