@@ -1,19 +1,24 @@
 {
-  "name": "tpjavascript",
+  "name": "tpcodetest",
   "version": "1.0.0",
-  "description": "TrainingPeaks Code Test",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joefan7/tpcodetest.git"
+    "url": "git+https://github.com/joefan7/portfolio.git"
   },
   "author": "Joe Fan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joefan7/tpcodetest/issues"
+    "url": "https://github.com/joefan7/portfolio/issues"
   },
-  "homepage": "https://github.com/joefan7/tpcodetest#readme"
+  "homepage": "https://github.com/joefan7/portfolio",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "description": "Please build a single page application to visualize the workout data provided in `workout-data.json`, including a map, a graph, and an algorithm to analyze average power output."
 }

@@ -1,0 +1,95 @@
+/* general styles */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/* padded section */
+.pad-section {
+    padding: 50px 0;
+}
+.pad-section img {
+    width: 100%;
+}
+/* vertical-centered text */
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    color: purple;
+    margin: 0;
+    padding: 0;
+}
+.text-vcenter h3 {
+    color: black;
+    margin: 1;
+    padding: 0;
+}
+.s2-text {
+    color: purple;
+}
+.s2-text p{
+    color: black;
+}
+.s2-text h3{
+    color: black;
+}
+
+.img-size {
+    height: 25%;
+    width: 25%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+/* additional sections */
+#home {
+    background: url(http://josephfan.com/images/parallax1.jpg) no-repeat center center fixed; 
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#about {
+    background: url(http://josephfan.com/images/parallax2.jpg) no-repeat center center fixed; 
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#portfolio {
+    background: url(http://josephfan.com/images/parallax3.jpg) no-repeat center center fixed; 
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#contact {
+    background: url(http://josephfan.com/images/parallax4.jpg) no-repeat center center fixed; 
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+#contact .panel {
+    opacity: 0.85;
+}
+#google_map {
+    height: 500px;
+}
+footer {
+    padding: 20px 0;
+}
+footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+}
+footer .glyphicon:hover {
+    color: #306d9f;
+}
